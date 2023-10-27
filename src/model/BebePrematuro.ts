@@ -14,7 +14,7 @@ export class BebePrematuro extends Bebe {
 public getSemanasGestacao(){
     return this.semanasGestacao;
 }
-public setSemanasGestacao(_semanasGestacao: string){
+public setSemanasGestacao(_semanasGestacao: string): void{
     this.semanasGestacao = _semanasGestacao;
 }
 }

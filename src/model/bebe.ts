@@ -17,28 +17,28 @@ export  abstract class Bebe {
     public getId(){
         return this.id;
     }                
-    public setId(_id: string){
+    public setId(_id: string): void{
         this.id = _id;
     }
 
     public getNome(){
         return this.nome;
     }
-    public setNome(_nome:string){
+    public setNome(_nome:string): void{
         this.nome = _nome;
     }
 
     public getPeso(){
         return this.peso;
     }
-    public setPeso (_peso: number){
+    public setPeso (_peso: number): void{
         this.peso = _peso;
     }
 
     public getAltura(){
         return this.altura;
     }
-    public setAltura(_altura: number){
+    public setAltura(_altura: number): void{
         this.altura = _altura;
     }
 

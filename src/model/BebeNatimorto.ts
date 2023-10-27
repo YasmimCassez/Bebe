@@ -14,7 +14,7 @@ export class BebeNatimorto extends Bebe {
 public getCausa(){
     return this.causa;
 }
-public setCausa(_causa: string){
+public setCausa(_causa: string): void{
     this.causa = _causa;
 }
 }

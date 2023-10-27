@@ -16,7 +16,7 @@ export class BebeNormal extends Bebe {
             return this.vacinado;
         }
 
-        public setVacinado(_vacinado:boolean){
+        public setVacinado(_vacinado:boolean): void{
             this.vacinado = _vacinado;
         }
 }
